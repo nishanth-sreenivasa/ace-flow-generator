@@ -4,7 +4,6 @@ A web application that converts natural language descriptions into Digital (ACE)
 
 ## 🎥 Demo
 
-[Video Demo Link - 3-5 minutes showcasing the application features]
 
 ## 🛠️ Tech Stack
 
@@ -25,7 +24,7 @@ A web application that converts natural language descriptions into Digital (ACE)
 1. **Clone the repository**:
 ```bash
 git clone <repository-url>
-cd gpt-flow-generator
+cd ace-flow-generator
 ```
 
 2. **Install dependencies**:
@@ -51,7 +50,7 @@ Navigate to http://localhost:3000
 
 ### Project Structure
 ```
-gpt-flow-generator/
+ace-flow-generator/
 ├── app/
 │   ├── api/generate/route.ts    # OpenAI API integration
 │   ├── globals.css              # Global styling and themes
