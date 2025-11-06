@@ -84,7 +84,7 @@ export default function YamlOutput({ yaml, loading }: Props) {
           <div className="h-full border-2 border-dashed rounded-lg p-6 flex items-center justify-center" style={{borderColor: 'var(--color-border)', backgroundColor: 'var(--color-step-bg)'}}>
             <div className="text-center">
               <div className="w-12 h-12 border-2 border-t-transparent rounded-full mx-auto mb-4" style={{borderColor: 'var(--color-primary)', animation: 'spin 1s linear infinite'}}></div>
-              <p className="text-lg" style={{color: 'var(--color-text)'}}>Generating your YAML flow...</p>
+              <p className="text-lg" style={{color: 'var(--color-text)'}}>Generating your ACE flow...</p>
               <p className="text-sm mt-2" style={{color: 'var(--color-muted)'}}>This may take a few moments</p>
             </div>
           </div>
@@ -95,9 +95,9 @@ export default function YamlOutput({ yaml, loading }: Props) {
         ) : (
           <div className="h-full border-2 border-dashed rounded-lg flex items-center justify-center" style={{borderColor: 'var(--color-border)', backgroundColor: 'var(--color-step-bg)'}}>
             <div className="text-center" style={{color: 'var(--color-muted)'}}>
-              <h3 className="text-lg font-medium mb-2" style={{color: 'var(--color-text)'}}>No YAML Generated Yet</h3>
+              <h3 className="text-lg font-medium mb-2" style={{color: 'var(--color-text)'}}>No ACE Flow Generated Yet</h3>
               <p className="text-sm max-w-sm">
-                Describe your API flow in the input area to generate a YAML configuration.
+                Describe your ACE flow in the input area to generate a flow configuration.
               </p>
             </div>
           </div>

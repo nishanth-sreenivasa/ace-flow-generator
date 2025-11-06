@@ -32,12 +32,7 @@ export default function ChatInput({ onSubmit, loading }: Props) {
             height: '128px',
             maxWidth: '100%'
           }}
-          placeholder="Describe your flow in detail...
-
-Examples:
-• Fetch user data from Salesforce CRM and send a weekly email report
-• Process payment through Stripe and update product inventory
-• Validate contact form data and store it in PostgreSQL database"
+          placeholder="Describe the ACE flow  you want to generate... ex:- Create a two-step flow to verify JWT and call API"
           value={input}
           onChange={(e) => setInput(e.target.value)}
           disabled={loading}
@@ -59,7 +54,7 @@ Examples:
         loading={loading}
         className="w-full"
       >
-        {loading ? "Generating Flow..." : "Generate YAML Flow"}
+        {loading ? "Generating ACE Flow..." : "Generate ACE Flow"}
       </Button>
     
     </form>
