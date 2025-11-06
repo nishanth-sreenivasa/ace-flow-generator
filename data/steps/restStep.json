@@ -1,0 +1,30 @@
+{
+  "name": "rest-new",
+  "description": "Perform REST API call using the 'rest-new' stepType.",
+  "sample": {
+    "name": "Step rest-new",
+    "description": "Fetch data from REST API endpoint.",
+    "stepType": "rest-new",
+    "condition": "",
+    "config": {
+      "endpoint": {
+        "url": "https://60927f7f85ff510017212f24.mockapi.io/users",
+        "method": "GET"
+      },
+      "restRequest": "JSON",
+      "expectedResponseLocation": "body",
+      "targetPath": "result",
+      "headerPath": "headers",
+      "headers": {},
+      "oAuthConfig": {},
+      "json": {},
+      "disableHeadersInKey": false
+    }
+  },
+  "instructions": [
+    "Use for REST calls.",
+    "Infer HTTP method based on natural language.",
+    "Ask user for URL if not provided.",
+    "Target path should be descriptive (e.g., users, weather, products)."
+  ]
+}

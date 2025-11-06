@@ -1,0 +1,23 @@
+{
+  "name": "jwt",
+  "description": "Verifies JWT tokens using HS256 algorithm. Used for token validation or decoding data.",
+  "sample": {
+    "name": "Step jwt",
+    "description": "Verify JWT token using HS256 algorithm.",
+    "stepType": "jwt",
+    "condition": "",
+    "config": {
+      "mode": "verify",
+      "algorithm": "HS256",
+      "targetPath": "data",
+      "token": "{{token}}",
+      "secret": "{{secret}}"
+    }
+  },
+  "instructions": [
+    "Use this step for JWT verification or decoding.",
+    "Always specify 'mode' as verify.",
+    "Accepts inputs: token, secret, and optional algorithm.",
+    "Outputs the verified data to targetPath."
+  ]
+}
