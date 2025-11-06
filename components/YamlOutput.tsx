@@ -41,7 +41,7 @@ export default function YamlOutput({ yaml, loading }: Props) {
     <div className="h-full flex flex-col">
       <div className="flex items-center justify-between mb-4">
         <div className="flex items-center space-x-2">
-          <h2 className="text-xl font-semibold" style={{color: 'var(--color-text)'}}>Generated YAML</h2>
+          <h2 className="text-xl font-semibold" style={{color: 'var(--color-text)'}}>Generated ACE Flow</h2>
           {yaml && (
             <div className="flex items-center space-x-1 text-sm px-2 py-1 rounded-full" style={{color: 'var(--color-primary)', backgroundColor: 'var(--color-primary-light)'}}>
               <span>Ready</span>

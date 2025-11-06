@@ -2,21 +2,21 @@ import "./globals.css";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "GPT Flow Generator - AI-Powered YAML Configuration",
-  description: "Generate YAML API flows from natural language descriptions using advanced AI. Transform your ideas into executable configurations instantly.",
-  keywords: ["YAML", "API", "Flow", "Generator", "AI", "GPT", "Configuration", "Automation"],
+  title: "ACE Flow Generator - AI-Powered YAML Configuration",
+  description: "Generate ACE API flows from natural language descriptions using advanced AI. Transform your ideas into executable configurations instantly.",
+  keywords: ["YAML", "API", "Flow", "Generator", "AI", "GPT", "Configuration", "Automation", "ACE"],
   authors: [{ name: "Flow Generator Team" }],
   creator: "Flow Generator",
   publisher: "Flow Generator",
   openGraph: {
-    title: "GPT Flow Generator",
+    title: "ACE Flow Generator",
     description: "Generate YAML API flows from natural language descriptions using AI",
     type: "website",
     locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
-    title: "GPT Flow Generator",
+    title: "ACE Flow Generator",
     description: "Generate YAML API flows from natural language descriptions using AI",
   },
   viewport: {
