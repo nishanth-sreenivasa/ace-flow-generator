@@ -2,8 +2,6 @@
 
 A web application that converts natural language descriptions into Digital (ACE) YAML flow configurations using AI.
 
-## 🎥 Demo
-
 
 ## 🛠️ Tech Stack
 
